@@ -9,7 +9,7 @@ public class AgeGame
 	{
 		// TODO Auto-generated method stub
 		int usersAge;
-		String result;
+		String result = null;
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Please enter your age to be insulted");
@@ -35,21 +35,20 @@ public class AgeGame
 		{
 			result = "Don't get gray hairs";
 		}
-		else if (usersAge >= 41 && users age <= 50) 
+		else if (usersAge >= 41 && usersAge <= 50) 
 		{
-			result = ""
+			result = "Don't get fat";
 		}
-		
-			
-		//o- 12
-		//13- 18
-		//19- 25
-		//26- 30
-		//30- 40
-		//41- 50
-		//51-60
-		//61 - death
+		else if (usersAge >=51 && usersAge <= 60) 
+		{
+			result = "Finnaly dead?";
+		}
+		displayMessage(result);
 		
 	}
-
+	public static void displayMessage(String result) {
+		String usersAge = null;
+		System.out.println(usersAge + result);
+	}
 }
+

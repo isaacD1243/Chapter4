@@ -27,13 +27,14 @@ public class DoorGame {
 		else if(doorChoice == 3 ) 
 		{
 			result = "Long fas food line";
+		}
+		
+		else 
 		{
-		 
 				result = "Nothing that was not a choice";
 		}
 			
 			displayMessage(result);
-		}	
 	}
 public static void displayMessage(String result) {
 	System.out.println("you won " + result);
