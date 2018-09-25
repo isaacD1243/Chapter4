@@ -10,10 +10,12 @@ public class CondoSales {
 		int parkCost = 150000;
 		int golfCost = 170000;
 		int lakeCost = 210000;
+		int quit =0;
 		String result = null;
 		
 		
 		Scanner input = new Scanner(System.in);
+		
 		do {
 		System.out.println("Chose a view for your new condo. \n1- parkview \n2- golfcourseview \n3- "
 				+ "lakeview.");
